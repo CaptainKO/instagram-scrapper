@@ -26,7 +26,7 @@ const questions = [
     }
 ];
 
-const tasks = (async (answers) => {
+const tasks = (async (answers: any) => {
     console.log('is downloading...');
     const {
         username, 
